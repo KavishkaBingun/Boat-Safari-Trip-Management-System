@@ -1,0 +1,137 @@
+   <!DOCTYPE html>
+<html>
+<head>
+<head>
+<title> FAQ </title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<link rel="stylesheet" type="text/css" href="styles/home.css">
+<link rel="stylesheet" href="styles/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+<header>
+		<img src="images/PEARL.png" alt="Website Logo" width="100px" height="100px" class="img-logo">
+		
+		<div class="nav-bar">
+			<ul>
+				<div class="nav-bar-content">
+					<li><a href="https://www.w3schools.com/cssref/pr_background-image.asp">Home</a></li>
+					<li><a href="https://www.w3schools.com/cssref/pr_background-image.asp">Registration</a></li>
+					<li><a href="https://www.w3schools.com/cssref/pr_background-image.asp""#">Packages</a></li>
+					<li><a href="https://www.w3schools.com/cssref/pr_background-image.asp">Book</a></li>
+					<li><a href="https://www.w3schools.com/cssref/pr_background-image.asp">More</a></li>
+				</div>
+			</ul>
+		</div>
+	</header>
+	
+	<br/><br/><br/>
+
+
+
+<button class="accordion">What is the best package in Pearl Boat Safari</button>
+<div class="panel"> <br>
+  <p>If we consider about Pearl Boat Safari Couple package is the best package. There are many benifits of this package to customers such as they can access swiming pool free of charge,
+As well as we give a candle night dinner etc.</p>
+</div>
+
+<button class="accordion">What are the offers that we can get</button>
+<div class="panel">
+  <p>Our Hotels offer exclusive services and benefits for the comfort of its guests. Among many facilities that the hotel has to offer, guests can directly access to the swimming pool and the theme & amusement park by car park hotel entrance elevators. A various choice of restaurants and cafés are available at the hotels.</p>
+</div>
+
+<button class="accordion">How about the accommodation</button>
+<div class="panel">
+  <p>Our Hotels offer exclusive services and benefits for the comfort of its guests. Among many facilities that the hotel has to offer, guests can directly access to the swimming pool and the theme & amusement park by car park hotel entrance elevators. A various choice of restaurants and cafés are available at the hotels..</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<br/><br/><br/>
+<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="">Accommodations</a></li>
+						<li><a href="">Experiences</a></li>
+						<li><a href="">Payments</a></li>
+					</ul>
+				</div>
+			    <div class="col">
+					<h4>Contact</h4>
+					<ul>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">Reviews & Rates</a></li>
+						<li><a href="">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Service Provider</h4>
+					<ul>
+						<li><a href="">Seller Page</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Follow Us</h4>
+					<div class="socialmedia">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+					<div>
+				</div>
+			</div>
+		</div>
+	
+	</footer>
+  
+
+</body>
+</html>
+
+
+        

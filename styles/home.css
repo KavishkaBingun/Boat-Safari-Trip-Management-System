@@ -1,0 +1,102 @@
+body{
+	background-image:url("../images/beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.add{
+    min-height: 100vh;
+    width: 100%;
+	background-image: url('Front.jpg');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-box{
+    width:90%;
+    color: rgba(255, 255, 255, 0.911);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.text-box h1{
+	font-family: Verdana, sans-serif;
+	text-shadow: 0px 0px 15px #14557b;
+    font-size: 75px;
+    font-weight: bolder;
+
+}
+.text-box h3{
+    margin:10px 0 40px ;
+    font-size: 20pxpx;
+    color:white;
+}
+
+/*packages*/
+.packages{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.packages h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.desc p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+}
+
+.package{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.package{
+    flex-basis: 20%;
+    background: #3417c2;
+    border-radius: 8px;
+    margin-bottom:5% ;
+    padding:20px 12px;
+    box-sizing: border-box;
+    margin: 10px;
+    transition: .6s ease-in-out;
+    color:white;
+    box-shadow: 2px 2px 20px rgba(201, 196, 196, 0.473);
+
+}
+.package:hover{
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.288);
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px rgb(201, 196, 196);
+
+}
+
+.readbtn{
+	padding:5px;
+	border-radius:5px;
+}
+
+.readbtn:hover{
+	color:#a6acb3;
+}
+
+
+
+
+	
+

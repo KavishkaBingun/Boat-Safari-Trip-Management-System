@@ -1,0 +1,91 @@
+<?php
+require 'connect.php';
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Add Payments </title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<link rel="stylesheet" href="styles/home.css">
+<link rel="stylesheet" href="styles/payment.css">
+          
+</head>
+<body>
+<header>
+		<img src="images/PEARL.png" alt="Website Logo" width="100px" height="100px" class="img-logo">
+		
+		<div class="nav-bar">
+			<ul>
+				<div class="nav-bar-content">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="register.html">Registration</a></li>
+					<li><a href="packages.html">Packages</a></li>
+					<li><a href="book.html">Book</a></li>
+					<li><a href="aboutus.html">More</a></li>
+				</div>
+			</ul>
+		</div>
+	</header>
+	
+	<br/><br/><br/>
+   
+  </head>
+  <center><form method="post" action="addpay.php">
+ 
+  Card Number: <input type="text" name="cardNumber" placeholder="#### #### ####"/><br><br>
+  Amount: <input type="text" name="amount" placeholder="000000.00"/><br><br>
+  CVV: <input type="text" name="cvv" placeholder="..."/><br><br>
+  Card Type: <input type="text" name="cardType" placeholder="Visa/Master"/><br><br>
+  Customer Id: <input type="text" name="CID" placeholder="x1234"/> <br><br>
+  <input type="submit" value="confirm">
+ </form></center>
+ 
+ 
+ <br><br><br>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4>Company</h4>
+					<ul>
+					    <li><a href="useraccount.html">User Account</a></li>
+						<li><a href="accomodation.html">Accommodations</a></li>
+						<li><a href="experiences.html">Experiences</a></li>
+						<li><a href="payment.html">Payments</a></li>
+					</ul>
+				</div>
+			    <div class="col">
+					<h4>Contact</h4>
+					<ul>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="review.html">Reviews & Rates</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Service Provider</h4>
+					<ul>
+						<li><a href="seller.html">Seller Page</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Follow Us</h4>
+					<div class="socialmedia">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+					<div>
+				</div>
+			</div>
+		</div>
+	
+	</footer>
+  
+
+</body>
+</html>
+
+
+  

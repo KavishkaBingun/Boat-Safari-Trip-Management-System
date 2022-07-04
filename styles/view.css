@@ -1,0 +1,38 @@
+.subbtn{
+	padding:5px;
+	width:5%;
+	border-radius:5px;
+	background:#23c226;
+}
+
+.input{
+	padding:5px;
+	width:20%;
+	border-radius:5px;
+}
+
+#btn1-update{
+	padding:10px;
+	width:10%;
+	border-radius:5px;
+	background:#23c226;
+}
+
+#btn1-delete{
+	padding:10px;
+	width:10%;
+	border-radius:5px;
+	background:#23c226;
+} 
+
+#btn1-update:hover{
+	color:#96b096;
+}
+
+#btn1-delete:hover{
+	color:#96b096;
+}
+
+.subbtn:hover{
+	color:#96b096;
+}

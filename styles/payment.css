@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card-details {
+  background:  rgb(115, 109,0); 
+  color: rgb(11,7,0);
+  margin: 10px 30px;
+  padding: 20px;
+ 
+}
+  
+.card-details p {
+  font-size: 25px;
+}
+  
+.card-details label {
+  font-size: 15px;
+  line-height: 30px;
+}
+  
+
+
+
+
+

@@ -1,0 +1,41 @@
+body{
+	background-image:url("../images/beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.name{
+	width: 350px; 
+	height: 40px;
+}
+
+#username{
+	margin-top: 5px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+#password{
+	margin-top: 5px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+#Submit{
+	margin-top: 10px;
+	border:groove;
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #7709ab;
+}	
+
+#Submit:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Submit:hover {
+	background-color: #3e8e41;
+	color: white;
+}
+

@@ -1,0 +1,61 @@
+.boat1{
+	border-style:solid;
+	padding:10px;
+}
+
+.boat2{
+	border-style:solid;
+	padding:10px;
+}
+
+.boat3{
+	border-style:solid;
+	padding:10px;
+}
+
+/*Button1*/
+#btn1-view{
+	padding:5px;
+	width:5%;
+	border-radius:5px;
+}
+
+#btn1-view:hover{
+	background-color: #929c9a;
+    color: white;
+}
+
+/*Button2*/
+#btn2-view{
+	padding:5px;
+	width:5%;
+	border-radius:5px;
+}
+
+#btn2-view:hover{
+	background-color: #929c9a;
+    color: white;
+}
+
+
+/*Button3*/
+#btn3-view, #btn3-update, #btn3-delete{
+	padding:5px;
+	width:5%;
+	border-radius:5px;
+}
+
+#btn3-view:hover{
+	background-color: #929c9a;
+    color: white;
+}
+
+#btn3-update:hover{
+	background-color: #929c9a;
+    color: white;
+}
+
+#btn3-delete:hover{
+	background-color: #929c9a;
+    color: white;
+}

@@ -1,0 +1,86 @@
+body{
+	background-image:url("../images/beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img1{
+	border-radius:50%;
+}
+
+form{
+	background-color:#b2d2d9;
+	padding:10px;
+}
+
+.reg-h1{
+	text-align:center;
+	font-family:"Times New Roman",Times,serif;
+}
+
+.reg-h3{
+	text-align:center;
+	font-family:"Times New Roman",Times,serif;
+}
+
+#fName{
+	width:98%;
+	padding:5px;
+}
+
+#lName{
+	width:98%;
+	padding:5px;
+}
+
+#Email {
+	width:98%;
+	padding:5px;
+}
+
+#contact {
+	width:98%;
+	padding:5px;
+}
+
+#pwd {
+	width:98%;
+	padding:5px;
+}
+
+#confirm {
+	width:98%;
+	padding:5px;
+}
+
+.submitbtn{
+  background-color: #666b6b;
+  border: solid black;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:5px;
+}
+
+.resetbtn{
+  background-color: #666b6b;
+  border: solid black;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:5px;
+}
+
+.submitbtn:hover{
+	color:#9fa6a6;
+}
+
+.resetbtn:hover{
+	color:#9fa6a6;
+}

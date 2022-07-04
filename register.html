@@ -1,0 +1,134 @@
+<!DOCTYPEhtml>
+
+<html>
+
+<head>
+
+	<title>Registration Page</title>
+	
+	<link rel="stylesheet" href="styles/register.css">
+	<link rel="stylesheet" href="styles/Header&Footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="js/register.js"></script>
+
+</head>
+
+<body>
+	<!--header-->
+	<header>
+		<img src="images/PEARL.png" alt="Website Logo" width="100px" height="100px" class="img-logo">
+		
+		<img src="images/user1.jpg" alt="user icon" width="70px" height="70px" align="right" class="img-user">
+		
+		
+		<div class="dropdown">
+			<select>
+				<option value="login">Login</option>
+				<option value="logout">Logout</option>
+			</select>
+		</div>
+		
+		<div class="nav-bar">
+			<ul>
+				<div class="nav-bar-content">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="register.html">Registration</a></li>
+					<li><a href="packages.html">Packages</a></li>
+					<li><a href="book.html">Book</a></li>
+					<li><a href="aboutus.html">More</a></li>
+				</div>
+			</ul>
+		</div>
+	</header>
+	<!--End header-->
+	
+	<br/>
+	
+	<form method="POST" action="php/register.php" onsubmit="return checkpassword()">
+		<div class="register">
+			<h1 class="reg-h1">Online Registeration</h1>
+			<h3 class="reg-h3">The Pearl Boat Safari Management System</h3>
+		
+			<label>First Name</label><br/>
+			<input type="text" id="fName" placeholder="First Name" name="fname" required><br/><br/>
+			
+			<label>Last Name</label><br/>
+			<input type="text" id="lName" placeholder="Last Name" name="lname" required><br/><br/>
+		
+			<label>Gender</label><br/>
+			<input type="radio" id="Male" name="gender" checked>Male
+			<input type="radio" id="Female" name="gender">Female<br/><br/>
+		
+			<label>Email</label><br/>
+			<input type="text" id="Email" name="mail" placeholder="abc@gmail.com" required><br/>
+		
+			<label>Contact Number</label><br/>
+			<input type="number" id="contact" name="mobile" placeholder="07**********" required><br/>
+		
+			<label>Address</label><br/>
+			<textarea rows="8" cols="60" placeholder="Address" name="address" required></textarea><br/><br/>
+		
+			<label>DOB : </label><br/>
+			<input type="date" id="dob" name="DOB"><br/><br/>
+		
+			<label>Password : </label><br/>
+			<input type="password" id="pwd" name="pass" placeholder="Enter Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,10}" required><br/><br/>
+		
+			<label>Re-enter Password : </label><br/>
+			<input type="password" id="confirm" name="confirmpass" placeholder="Re-enter Password" required><br/><br/>
+			
+			<input type="checkbox" class="privacybox" >Accept privacy policies<br/><br/>
+			<input type="submit" class="submitbtn" name="btnsubmit" onclick="return vaild()">
+			<input type="button" class="resetbtn" value="reset">
+		
+		</div>
+		
+	</form>
+	
+	<br/>
+	
+	<!--footer-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="useraccount.html">User Account</a></li>
+						<li><a href="accommodation.html">Accommodations</a></li>
+						<li><a href="experiences.html">Experiences</a></li>
+						<li><a href="payments.html">Payments</a></li>
+					</ul>
+				</div>
+			    <div class="col">
+					<h4>Contact</h4>
+					<ul>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="review.html">Reviews & Rates</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Service Provider</h4>
+					<ul>
+						<li><a href="seller.html">Seller Page</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Follow Us</h4>
+					<div class="social-links">
+						<a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+					<div>
+				</div>
+			</div>
+		</div>
+	
+	</footer>
+	<!--End footer-->
+</body>
+
+</html>
